@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root {
+  margin: 0 auto;
+}
+
+button:hover {
+  border-color: rgb(25, 5, 207, 0.8);
+  background-color: rgb(25, 5, 207, 0.8);
+}
+
+.App {
+  width: 500px;
+  padding: 0;
+}
+
+.todoText {
+  border: 1px solid rgb(80, 79, 79);
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.todoText:hover {
+  font-weight: 700;
+  color: darkblue;
+}
+
+.todoIcon {
+  display: flex;
+  width: 13%;
+  justify-content: space-between;
+}
+
+#exclamation {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(36, 136, 41);
+  color: rgb(8, 133, 15);
+}
+
+#exclamation:hover {
+  background-color: rgba(3, 243, 15, 0.8);
+}
+
+#trash { 
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 5px;   
+  border: 1px solid rgb(230, 94, 94);   
+  color: rgb(155, 42, 42);
+}
+
+#trash:hover {
+  background-color: rgba(243, 3, 3, 0.8);
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.search input {
+  width: 80.5%;
+}
+
+.searchButton {
+  width: 29.5%;
+  display: flex;
+}
+
+.addBlock {
+  display: flex;
+  width: 500px;
+  padding: 0;
+}
+
+.addBlock input {
+  width: 90%;
+}
+
+.addBlock button {
+  width: 10%;
+}

@@ -1,0 +1,116 @@
+
+.wrapper {
+    margin: 0 auto;
+}
+
+button:hover {
+    border-color: rgb(25, 5, 207, 0.8);
+    background-color: rgb(25, 5, 207, 0.8);
+}
+
+.list {
+    width: 500px;
+    padding: 0;
+}
+
+.todoText {
+    border: 1px solid rgb(80, 79, 79);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.todoText:hover {
+    font-weight: 700;
+    color: darkblue;
+}
+
+.todoIcon {
+    display: flex;
+    width: 13%;
+    justify-content: space-between;
+}
+
+#exclamation {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(36, 136, 41);
+    color: rgb(8, 133, 15);
+}
+
+#exclamation:hover {
+    background-color: rgba(3, 243, 15, 0.8);
+}
+
+#trash { 
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 5px;   
+    border: 1px solid rgb(230, 94, 94);   
+    color: rgb(155, 42, 42);
+}
+
+#trash:hover {
+    background-color: rgba(243, 3, 3, 0.8);
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.search input {
+    width: 70.5%;
+}
+
+.searchButton {
+    width: 29.5%;
+    display: flex;
+}
+
+.addBlock {
+    display: flex;
+    width: 500px;
+    padding: 0;
+}
+
+.addBlock input {
+    width: 90%;
+}
+
+.addBlock button {
+    width: 10%;
+}
+
+
+
+.listItem {
+    font-size: 1.25rem;
+  }
+  
+  .listItem button {
+    width: 35px;
+    margin: 3px;
+  }
+
+  .itemLabel {
+    margin-left: 1.25rem;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .listItem.done .itemLabel {
+    text-decoration: line-through;
+  }
+  
+  .listItem.important .itemLabel {
+    font-weight: bold;
+    color: steelblue;
+  }
+  

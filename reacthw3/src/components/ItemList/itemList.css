@@ -1,0 +1,23 @@
+.listItem {
+  font-size: 1.25rem;
+}
+
+.listItem button {
+  width: 35px;
+  margin: 3px;
+}
+
+.itemLabel {
+  margin-left: 1.25rem;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.listItem.done .itemLabel {
+  text-decoration: line-through;
+}
+
+.listItem.important .itemLabel {
+  font-style: italic;
+}
